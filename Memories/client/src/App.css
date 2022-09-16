@@ -1,0 +1,60 @@
+.container{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white !important;
+    border-radius: 20px;
+}
+.header h1{
+    font-size: 3rem;
+}
+.header:hover{
+    box-shadow: 0px 0px 6px 6px  rgb(196, 196, 196);
+}
+
+.logo{
+    height: 100%;
+    width: 100px;
+}
+
+.bottom{
+    border: 2px solid red;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    border: 2px solid red;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    border: 2px solid red;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    font-size: 3rem; 
+}
+.form{
+    font-size: 3rem; 
+}
